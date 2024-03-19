@@ -52,8 +52,8 @@ float compute_CHI_square_distance(const float hist1[], const float hist2[]) {
     return chi_square;
 }
 
-char shift_ch(char ch, int shift) {
-    int shifted_index = (tolower(ch) - 'a' + shift + ALPHABET_SIZE) % ALPHABET_SIZE;
+char shift_ch(char ch, const int shift) {
+    int shifted_index = (tolower(ch) - 'a' + shift % ALPHABET_SIZE + ALPHABET_SIZE) % ALPHABET_SIZE;
     char shifted_ch = (isupper(ch) ? 'A' : 'a') + shifted_index;
 
     return shifted_ch;
