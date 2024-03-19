@@ -159,6 +159,7 @@ int main() {
             printf("\nEncrypted text:\n");
             printf("%s\n\n", encrypted_text);
 
+            free(text);
             free(encrypted_text);
         } else if (option == 2) {
             char *encrypted_text = read_text();
