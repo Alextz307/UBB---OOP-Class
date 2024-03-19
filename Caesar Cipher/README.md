@@ -42,19 +42,7 @@ This program is a simple implementation of the Caesar Cipher encryption and decr
 - The `distribution.txt` file must contain 26 floating-point values representing the normal distribution of English letters from 'a' to 'z'.
 - Decryption assumes that the text was encrypted using the Caesar Cipher method without additional obfuscation.
 
-## Contributing
-
-Feel free to fork the repository, make changes, and submit pull requests. Please update the tests as appropriate.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - This program uses a standard frequency distribution of English letters for decryption. Make sure your `distribution.txt` is accurate for effective decryption.
 - The encryption and decryption are case-insensitive and handle only alphabetic characters.
-
-## Disclaimer
-
-This tool is for educational purposes only. The author is not responsible for any misuse of this tool.
